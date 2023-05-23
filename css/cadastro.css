@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+:root{
+    --black:#000;
+    --lil-green:#D0DEBF;
+    --green3:#A1BD92;
+    --green2:#729B64;
+    --main-color:#437A37;
+    --white: #FFFFED;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+}
+
+html{
+    height: 100%;
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 100%;
+    background: var(--white);
+}
+
+.cadastro{
+    text-align: center;
+}
+
+.cadastro .formulario{
+    height: 40%;
+    background: var(--lil-green);
+    margin: 0 35%;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.cadastro .formulario h1{
+    margin: 0 8px;
+    padding: 1.5rem 3rem;
+    font-size: 24px;
+}
+
+.cadastro .formulario .textos{
+    text-align: none;
+    display: flex;
+    flex-flow: column;
+}
+
+.cadastro .formulario .textos input{
+    background: var(--lil-green);
+    margin: 1rem;
+    border-bottom: 2px solid var(--main-color);
+}
